@@ -7,9 +7,8 @@ try :
 
     if hours > 40 :
         overtime_hours = hours - 40
-        print(overtime_hours)
         
-        overtime_pay = (0.5 * overtime_hours) + regular_pay
+        overtime_pay = ((0.5 * rate) * overtime_hours) + regular_pay
         print('Pay: ', overtime_pay)
     else  :
         print('Pay: ', regular_pay)
