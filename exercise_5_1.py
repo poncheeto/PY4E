@@ -1,7 +1,16 @@
-num = 0
+count = 0
+total = 0
 
-while true:
-    line = input("Enter a number: ")
-    if line == 'done':
+while True:
+    str_value = input('Enter a number: ')
+    if str_value == 'done':
         break
-    print()
+    try:
+        int_value = int(str_value)
+    except:
+        print('Invalid input')
+        continue
+    count = count + 1
+    total = total + int_value
+    average = total / num
+print(total, count, average)
