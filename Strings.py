@@ -10,4 +10,5 @@ while i < len(fruit):
 for char in fruit:
     print(char)
 
-# Exercise 3
+# Exercise 2
+print(fruit[:])
