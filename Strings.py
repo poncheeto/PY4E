@@ -1,5 +1,4 @@
-fruit = 'banana'
-
+# fruit = 'banana'
 
 # # Exercise 1
 # i = 0
@@ -24,4 +23,17 @@ fruit = 'banana'
 # count('banana', 'a')
 
 # Exercise 4
-print(fruit.count('a'))
+# print(fruit.count('a'))
+
+# Exercise 5
+str = 'X-DSPAM-Confidence:0.8475'
+
+posit1 = str.find(':')
+print(posit1)
+
+posit2 = str[posit1 + 1:]
+print(posit2)
+
+float_posit2 = float(posit2)
+print(float_posit2)
+print(type(float_posit2))
