@@ -14,11 +14,14 @@ fruit = 'banana'
 # print(fruit[:])
 
 # Exericse 3
-def count(word, letter):
-    count = 0;
-    for char in word:
-        if char == letter:
-            count += 1
-    print(count)
+# def count(word, letter):
+#     count = 0;
+#     for char in word:
+#         if char == letter:
+#             count += 1
+#     print(count)
 
-count('banana', 'a')
+# count('banana', 'a')
+
+# Exercise 4
+print(fruit.count('a'))
